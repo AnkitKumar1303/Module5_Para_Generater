@@ -1,0 +1,117 @@
+main {
+    width: 100%;
+    padding: 2rem 1rem;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  main .form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 700px;
+    margin-bottom: 2rem;
+    gap: 1rem;
+  }
+  
+  main .form input {
+    font-size: 1.2rem;
+    font-weight: 600;
+    appearance: none;
+    border: none;
+    border: 3px solid rgb(3, 2, 0);
+    background: transparent;
+    border-radius: 0.2em 0.2em 0 0;
+    padding: 0.5rem;
+    color: rgb(23, 22, 21);
+    text-align: center;
+  }
+  
+  main .form input::placeholder {
+    font-size: 0.8rem;
+    font-weight: 400;
+  }
+  .para-1{
+    font-size: 28px;
+    font-weight: 700;
+    color: red;
+  }
+  main .form button {
+   
+  align-items: center;
+  appearance: none;
+  background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%);
+  border: 0;
+  border-radius: 6px;
+  box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono",monospace;
+  height: 48px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 18px;
+}
+  
+  @media (min-width: 768px) {
+    main .form button {
+      padding: 12px 50px;
+    }
+  }
+  
+  .para-container {
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    text-align: center;
+  }
+  
+  .para-container .para {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.4rem;
+    background-color: rgb(70, 67, 119);
+    padding: 1rem;
+    border-radius: 0.5rem;
+  }
+  
+  .para-container .para p {
+    font-size: 1.4rem;
+    line-height: 2rem;
+    font-weight: 500;
+  }
+
+  
+  @media screen and (max-width: 475px) {
+    .para-container .para p {
+      font-size: 1rem;
+      line-height: 1.5rem;
+    }
+    
+  }
